@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6458946-817a-4fe0-a493-87cc661ff4ce" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\agendaSurveyor.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/agendaSurveyor.html" />
+      <change type="MOVED" beforePath="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\editVistory.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/editVistory.html" />
+      <change type="MOVED" beforePath="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\listAll.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/listAll.html" />
+      <change type="MOVED" beforePath="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\newVistory.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/newVistory.html" />
+      <change type="MOVED" beforePath="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\openVistory.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/openVistory.html" />
+      <change type="MOVED" beforePath="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\reportManager.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/reportManager.html" />
+      <change type="MOVED" beforePath="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\reportPrint.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/reportPrint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/Controllers/Login/ControllerLogin.php" afterPath="$PROJECT_DIR$/protected/Controllers/Login/ControllerLogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appVistoria/src/ControllerVistoria.js" afterPath="$PROJECT_DIR$/public/appVistoria/src/ControllerVistoria.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/Controllers/Vistoria/IndexVistoria.php" afterPath="$PROJECT_DIR$/protected/Controllers/Vistoria/IndexVistoria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appVistoria/src/ModelVistoria.js" afterPath="$PROJECT_DIR$/public/appVistoria/src/ModelVistoria.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/Models/ModelVistoria.php" afterPath="$PROJECT_DIR$/protected/Models/ModelVistoria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appVistoria/src/ModuloVistoria.js" afterPath="$PROJECT_DIR$/public/appVistoria/src/ModuloVistoria.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appVistoria/templates/agendamento.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/agendamento.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appVistoria/templates/editarVistoria.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/editarVistoria.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appVistoria/templates/listarTodasVistorias.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/listarTodasVistorias.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appVistoria/templates/listarVistoriasAbertas.html" afterPath="$PROJECT_DIR$/public/appVistoria/templates/listarVistoriasAbertas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/template.twig" afterPath="$PROJECT_DIR$/protected/views/template.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="projectSigem.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="projectSigem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="IndexVistoria.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/Controllers/Vistoria/IndexVistoria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-8.307693" vertical-offset="378" max-vertical-offset="2826">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelVistoria.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/Models/ModelVistoria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="21" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-5.230769" vertical-offset="286" max-vertical-offset="1764">
+              <folding>
+                <marker date="1414527854525" expanded="true" signature="252:1095" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+                <marker date="1414527854525" expanded="true" signature="1464:1509" placeholder="SELECT * FRO..vistorias..." />
+                <marker date="1414527854525" expanded="true" signature="1691:1991" placeholder="UPDATE visto..." />
+                <marker date="1414527854525" expanded="true" signature="2508:2667" placeholder="SELECT ID_VI..vistorias..." />
+                <marker date="1414527854525" expanded="true" signature="2792:2927" placeholder="SELECT ID_VI..vistorias..." />
+                <marker date="1414527854525" expanded="true" signature="3107:3244" placeholder="UPDATE visto..." />
+                <marker date="1414527854525" expanded="true" signature="3756:4010" placeholder="SELECT visto..vistorias..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agendaVistoriador.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/agendaVistoriador.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="20" selection-start="2323" selection-end="2323" vertical-scroll-proportion="-23.384615" vertical-offset="436" max-vertical-offset="1278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agendamento.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/agendamento.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="100" selection-start="5001" selection-end="5001" vertical-scroll-proportion="-6.230769" vertical-offset="1944" max-vertical-offset="5958">
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#6;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerVistoria.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ControllerVistoria.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="53" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.35384616" vertical-offset="1269" max-vertical-offset="6930">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelVistoria.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ModelVistoria.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="28" selection-start="841" selection-end="857" vertical-scroll-proportion="-19.384615" vertical-offset="0" max-vertical-offset="1404">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/css/jquery-ui.css" />
+        <option value="$PROJECT_DIR$/public/js/angular-strap.js" />
+        <option value="$PROJECT_DIR$/public/js/bootstrap-datepicker.js" />
+        <option value="$PROJECT_DIR$/public/css/bootstrap-datepicker.css" />
+        <option value="$PROJECT_DIR$/public/css/angular-pickadate.css" />
+        <option value="$PROJECT_DIR$/public/js/angular-pickadate.js" />
+        <option value="$PROJECT_DIR$/public/js/date.js" />
+        <option value="$PROJECT_DIR$/public/css/datepicker.css" />
+        <option value="$PROJECT_DIR$/public/js/jquery-ui.js" />
+        <option value="$PROJECT_DIR$/bootstrap.php" />
+        <option value="$PROJECT_DIR$/public/css/date-picker.custom.css" />
+        <option value="$PROJECT_DIR$/public/appLogin/src/ModuloLogin.js" />
+        <option value="$PROJECT_DIR$/public/js/angular-cookies.js" />
+        <option value="$PROJECT_DIR$/protected/views/login.twig" />
+        <option value="$PROJECT_DIR$/public/app.js" />
+        <option value="$PROJECT_DIR$/protected/Models/ModelLogin.php" />
+        <option value="$PROJECT_DIR$/public/appLogin/src/ControllerLogin.js" />
+        <option value="$PROJECT_DIR$/protected/config/app.config.yml" />
+        <option value="$PROJECT_DIR$/protected/Controllers/Login/ControllerLogin.php" />
+        <option value="$PROJECT_DIR$/public/appVistoria/templates/visualizarDadosVistoria.html" />
+        <option value="$PROJECT_DIR$/public/appVistoria/templates/listarTodasVistorias.html" />
+        <option value="$PROJECT_DIR$/protected/views/laudoVistoria.twig" />
+        <option value="$PROJECT_DIR$/public/appVistoria/src/ModelVistoria.js" />
+        <option value="$PROJECT_DIR$/public/appVistoria/templates/editarVistoria.html" />
+        <option value="$PROJECT_DIR$/public/appVistoria/templates/listarVistoriasAbertas.html" />
+        <option value="$PROJECT_DIR$/public/appVistoria/src/ModuloVistoria.js" />
+        <option value="$PROJECT_DIR$/protected/views/template.twig" />
+        <option value="$PROJECT_DIR$/public/appVistoria/templates/agendaVistoriador.html" />
+        <option value="$PROJECT_DIR$/protected/Models/ModelVistoria.php" />
+        <option value="$PROJECT_DIR$/protected/Controllers/Vistoria/IndexVistoria.php" />
+        <option value="$PROJECT_DIR$/public/appVistoria/src/ControllerVistoria.js" />
+        <option value="$PROJECT_DIR$/public/appVistoria/templates/agendamento.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appVistoria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appVistoria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vistoria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Estudos CodeEducation/DesignPatterns/Projeto_01" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates" />
+      <recent name="$PROJECT_DIR$/public/appVistoria/templates" />
+      <recent name="C:\Users\gmferreir\Desktop\Projetos\projectSigem\public\appVistoria\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gmferreir\Google Drive\Projetos Em Desenvolvimento\projectSigem\public\appVistoria\templates\templates_antigos" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6458946-817a-4fe0-a493-87cc661ff4ce" name="Default" comment="" />
+      <created>1413796770542</created>
+      <updated>1413796770542</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27086383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27086383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/agendamento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="313" column="45" selection-start="15646" selection-end="15646" vertical-scroll-proportion="0.0" vertical-offset="4480" max-vertical-offset="5055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ControllerVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="64" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1905" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ModuloVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ModelVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Controllers/Vistoria/IndexVistoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Models/ModelVistoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1050">
+          <folding>
+            <marker date="1414527854525" expanded="true" signature="252:1095" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+            <marker date="1414527854525" expanded="true" signature="1464:1509" placeholder="SELECT * FRO..vistorias..." />
+            <marker date="1414527854525" expanded="true" signature="1691:1991" placeholder="UPDATE visto..." />
+            <marker date="1414527854525" expanded="true" signature="2508:2667" placeholder="SELECT ID_VI..vistorias..." />
+            <marker date="1414527854525" expanded="true" signature="2792:2927" placeholder="SELECT ID_VI..vistorias..." />
+            <marker date="1414527854525" expanded="true" signature="3107:3244" placeholder="UPDATE visto..." />
+            <marker date="1414527854525" expanded="true" signature="3756:4010" placeholder="SELECT visto..vistorias..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ControllerVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="44" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/agendamento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="127" selection-start="307" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="4650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="63" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ModuloVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="51" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/template.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="17" selection-start="8794" selection-end="8794" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1003" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/template.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="0" selection-start="8615" selection-end="8615" vertical-scroll-proportion="0.0" vertical-offset="3298" max-vertical-offset="3638" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/newVistory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap-datepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="300" column="1" selection-start="10481" selection-end="10481" vertical-scroll-proportion="0.9400353" vertical-offset="4567" max-vertical-offset="5202" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/angular-strap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="259" selection-end="259" vertical-scroll-proportion="0.1534296" vertical-offset="0" max-vertical-offset="14960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/angular-pickadate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="1" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.9400353" vertical-offset="1235" max-vertical-offset="1870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/angular-pickadate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="44" selection-start="1270" selection-end="1270" vertical-scroll-proportion="1.2274368" vertical-offset="0" max-vertical-offset="3587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/datepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="480" column="1" selection-start="17483" selection-end="17483" vertical-scroll-proportion="14.391535" vertical-offset="0" max-vertical-offset="8262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ui-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="449" column="23" selection-start="15142" selection-end="15149" vertical-scroll-proportion="0.39526412" vertical-offset="7416" max-vertical-offset="35037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/date-picker.custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="1" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="3240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="23" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="3" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.5102041" vertical-offset="330" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="96" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appLogin/src/ModuloLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="76" selection-start="67" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appLogin/src/ModelLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appLogin/src/ControllerLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="61" selection-start="402" selection-end="402" vertical-scroll-proportion="0.22920203" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/login.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="3017" selection-end="3063" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="1649" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/app.config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="147" selection-end="147" vertical-scroll-proportion="0.20913884" vertical-offset="0" max-vertical-offset="569" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/vendor/silex/silex/src/Silex/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="260" selection-end="260" vertical-scroll-proportion="-0.19318181" vertical-offset="204" max-vertical-offset="8789" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/listarTodasVistorias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="72" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="0.12811388" vertical-offset="0" max-vertical-offset="562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="190" selection-end="322" vertical-scroll-proportion="0.24615385" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/laudoVistoria.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="87" selection-end="87" vertical-scroll-proportion="0.06153846" vertical-offset="0" max-vertical-offset="1854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Models/ModelLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="380" selection-end="380" vertical-scroll-proportion="0.5034965" vertical-offset="0" max-vertical-offset="572">
+          <folding>
+            <marker date="1414056744000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..usuarios..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Controllers/Login/ControllerLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="53" selection-start="1610" selection-end="1640" vertical-scroll-proportion="0.5846154" vertical-offset="324" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/listarVistoriasAbertas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="77" selection-start="529" selection-end="529" vertical-scroll-proportion="0.3146853" vertical-offset="108" max-vertical-offset="2358">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/editarVistoria.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="46" selection-start="1287" selection-end="1299" vertical-scroll-proportion="0.37762237" vertical-offset="378" max-vertical-offset="6552">
+          <folding>
+            <element signature="n#style#0;n#ol#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ol#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#4;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#4;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#7;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#9;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#9;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#9;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#0;n#div#0;n#div#9;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#10;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/templates_antigos/agendaSurveyor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="7" selection-start="0" selection-end="2740" vertical-scroll-proportion="0.8111888" vertical-offset="724" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/template.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="65" selection-start="8381" selection-end="8381" vertical-scroll-proportion="0.5538462" vertical-offset="2826" max-vertical-offset="4590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ModuloVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="680" selection-end="680" vertical-scroll-proportion="0.44189852" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/agendaVistoriador.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="20" selection-start="2323" selection-end="2323" vertical-scroll-proportion="-23.384615" vertical-offset="436" max-vertical-offset="1278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ModelVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="28" selection-start="841" selection-end="857" vertical-scroll-proportion="-19.384615" vertical-offset="0" max-vertical-offset="1404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Models/ModelVistoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-5.230769" vertical-offset="286" max-vertical-offset="1764">
+          <folding>
+            <marker date="1414527854525" expanded="true" signature="252:1095" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+            <marker date="1414527854525" expanded="true" signature="1464:1509" placeholder="SELECT * FRO..vistorias..." />
+            <marker date="1414527854525" expanded="true" signature="1691:1991" placeholder="UPDATE visto..." />
+            <marker date="1414527854525" expanded="true" signature="2508:2667" placeholder="SELECT ID_VI..vistorias..." />
+            <marker date="1414527854525" expanded="true" signature="2792:2927" placeholder="SELECT ID_VI..vistorias..." />
+            <marker date="1414527854525" expanded="true" signature="3107:3244" placeholder="UPDATE visto..." />
+            <marker date="1414527854525" expanded="true" signature="3756:4010" placeholder="SELECT visto..vistorias..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Controllers/Vistoria/IndexVistoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-8.307693" vertical-offset="378" max-vertical-offset="2826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/templates/agendamento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="100" selection-start="5001" selection-end="5001" vertical-scroll-proportion="-6.230769" vertical-offset="1944" max-vertical-offset="5958">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#6;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appVistoria/src/ControllerVistoria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="53" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.35384616" vertical-offset="1269" max-vertical-offset="6930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

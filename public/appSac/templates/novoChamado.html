@@ -1,0 +1,183 @@
+<style>
+    input[type="text"] {
+        font-size: 11px;
+    }
+
+</style>
+<form role="form" ng-controller="ControllerSac" ng-init="initData()" ng-submit="gravarChamado(item)">
+
+<div class="row">
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="contrato">* Contrato</label>
+            <input type="text" class="form-control" id="contrato" ng-model="item.CODIGO_CONTRATO" ng-blur="consulta_dados_contrato(item.CODIGO_CONTRATO)" ng-change="change_contrato()">
+        </div>
+    </div>
+
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="cod_imovel">* Cod.Imóvel</label>
+            <input type="text" class="form-control" name="cod_imovel" id="cod_imovel" ng-model="item.CODIGO" ng-disabled="codigo()">
+        </div>
+    </div>
+    <div class="col-lg-2" style="margin-top: 28px;">
+        <span style="font-size: 11px;" ng-show="pesquisando()"><img src="/img/159.gif" height="13" width="13"/> Pesquisando ...</span>
+    </div>
+
+    <div class="col-lg-6">
+        <ol class="breadcrumb" style="background-color: #446a89; width: 280px">
+            <li class="active" style="color: #ffffff"><i class="fa fa-users fa"></i> &nbsp;ABERTURA DE ATENDIMENTO</li>
+        </ol>
+    </div>
+
+</div>
+<hr />
+<div class="row">
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label for="end_imovel">* Endereço Imóvel</label>
+            <input type="text" class="form-control" name="end_imovel" id="end_imovel" ng-model="item.ENDERECO">
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+        <div class="form-group">
+            <label for="bairro">* Bairro</label>
+            <input type="text" class="form-control" name="bairro" id="bairro" ng-model="item.BAIRRO">
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="form-group">
+            <label for="prioridade">* Prioridade</label>
+            <select class="form-control" name="prioridade" id="prioridade" ng-model="item.PRIORIDADE">
+                <option value="">Informe</option>
+                <option value="baixa">Baixa</option>
+                <option value="media">Media</option>
+                <option value="alta">Alta</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-3">
+        <div class="form-group">
+            <label for="proprietario">* Proprietário</label>
+            <input type="text" class="form-control" name="proprietario" id="proprietario" ng-model="item.NOME">
+        </div>
+    </div>
+
+    <div class="col-lg-1">
+        <div class="form-group">
+            <label for="ddd">DDD</label>
+            <input type="text" class="form-control" name="ddd" id="ddd" ng-model="item.DDD">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="tel_residencial">* Tel.Residencial</label>
+            <input type="text" class="form-control" name="tel_residencial" id="tel_residencial" ng-model="item.RESIDENCIAL">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="tel_celular">Tel.Celular</label>
+            <input type="text" class="form-control" name="tel_celular" id="tel_celular" ng-model="item.CELULAR">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="tel_comercial">Tel.Comercial</label>
+            <input type="text" class="form-control" name="tel_comercial" id="tel_comercial" ng-model="item.COMERCIAL">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" name="email" id="email" ng-model="item.E_MAIL">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label for="solicitante">* Solicitante</label>
+            <input type="text" class="form-control" name="solicitante" id="solicitante" ng-model="item.SOLICITANTE">
+        </div>
+    </div>
+
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="tel_residencial_solicitante">* Tel.Residencial</label>
+            <input type="text" class="form-control" ui-mask="(99)9999-9999" name="tel_residencial_solicitante" id="tel_residencial_solicitante" ng-model="item.TEL_RESIDENCIAL_SOLICITANTE" model-view-value="true">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="tel_comercial_solicitante">Tel.Comercial</label>
+            <input type="text" class="form-control" ui-mask="(99)9999-9999" name="tel_comercial_solicitante" id="tel_comercial_solicitante" ng-model="item.TEL_COMERCIAL_SOLICITANTE" model-view-value="true">
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="form-group">
+            <label for="email_solicitante">Email</label>
+            <input type="email" class="form-control" name="email_solicitante" id="email_solicitante" ng-model="item.EMAIL_SOLICITANTE"
+                   oninvalid="setCustomValidity('Email Inválido')" onchange="try{setCustomValidity('')}catch(e){}">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-5">
+        <div class="form-group">
+            <label for="solicitacao">* Solicitação</label>
+            <textarea class="form-control" rows="3" name="solicitacao" id="solicitacao" ng-model="item.SOLICITACAO" maxlength="200"></textarea>
+            <span style="font-size: 11px;">{{item.SOLICITACAO.length}}  - Max 200 caracteres</span>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-2">
+        <button type="submit" ng-disabled="!(!!item.CODIGO_CONTRATO && !!item.CODIGO && !!item.ENDERECO && !!item.BAIRRO && !!item.PRIORIDADE
+                    && !!item.NOME && !!item.RESIDENCIAL && item.SOLICITANTE && item.TEL_RESIDENCIAL_SOLICITANTE
+                    && item.SOLICITACAO)" class="btn btn-default"
+                ><span class="glyphicon glyphicon-floppy-saved"></span> Salvar Dados
+        </button>
+    </div>
+    <div class="col-lg-4">
+        <p style="font-size: 12px;">* Campos Obrigatórios</p>
+    </div>
+</div>
+
+</form>
+
+
+<!-- Modal contrato não encontrado -->
+<div class="modal fade bs-example-modal-sm ajusteModal" id="modalErroContrato" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header dialog-header-notify">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="color: #000000; font-size: 14px;"><i class="fa fa-info-circle"></i> INFORMAÇÃO DO SISTEMA</h4>
+            </div>
+            <div class="modal-body">
+                <span style="font-size: 12px;">O SISTEMA NÃO ENCONTROU O CONTRATO SOLICITADO.</span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    /* $('#bt_load').click(function(){
+     $('#bt_load').button('loading');
+     *//* perform processing then reset button when done *//*
+     setTimeout(function() {
+     $('#bt_load').button('reset');
+     }, 1000);
+     });*/
+</script>

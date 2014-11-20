@@ -1,0 +1,75 @@
+<div class="row">
+    <div class="col-lg-4" style="margin-left: 15px;">
+        <div class="form-group">
+            <label for="pesquisa"><i class="fa fa-search"></i>  Pesquisa de Dados </label>
+            <input type="text" class="form-control" id="pesquisa" ng-model="pesquisa">
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <ol class="breadcrumb" style="background-color: #5cb85c; width: 280px">
+            <li class="active" style="color: #ffffff"><i class="fa fa-users fa"></i> &nbsp;CHAMADOS ABERTOS</li>
+        </ol>
+    </div>
+</div>
+
+<div ng-controller="ControllerSac">
+
+    <div ng-init="carregaChamadosAbertos()">
+        <table class="table table-hover">
+            <thead>
+            <tr style="font-size: 12px;">
+                <td> - </td>
+                <th>Contrato</th>
+                <th>Cod.Imóvel</th>
+                <th>Endereço</th>
+                <th>Status</th>
+                <th>Prioridade</th>
+                <th>Rp.Abertura</th>
+                <th>Data.Abertura</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="chamado in chamados | filter:pesquisa" style="font-size: 11px;">
+                <td><a href="#/sac/chamado/abrir/{{chamado.ID_SAC}}" title="Abrir dados do chamado"> <span class="glyphicon glyphicon-save"></span> </a></td>
+                <td> {{chamado.CODIGO_CONTRATO}} </td>
+                <td> {{chamado.CODIGO}} </td>
+                <td> {{chamado.ENDERECO}} </td>
+                <td style="text-transform: capitalize"> {{chamado.STATUS}} </td>
+                <td ng-if="chamado.PRIORIDADE == 'baixa'"> <img src="/icons/statusBaixaIcon.png" /> <span style="text-transform: capitalize"> {{chamado.PRIORIDADE}}</span> </td>
+                <td ng-if="chamado.PRIORIDADE == 'media'"> <img src="/icons/statusMediaIcon.png" /> <span style="text-transform: capitalize"> {{chamado.PRIORIDADE}}</span> </td>
+                <td ng-if="chamado.PRIORIDADE == 'alta'"> <img src="/icons/statusAltaIcon.png" />  <span style="text-transform: capitalize"> {{chamado.PRIORIDADE}}</span> </td>
+                <td style="text-transform: capitalize"> {{chamado.RP_ABERTURA}} </td>
+                <td> {{chamado.DATA_ABERTURA | date: 'dd/MM/yyyy' }} </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- JANELAS MODAIS -->
+    <!-- Modal Cancelamento Vistoria -->
+    <div class="modal fade ajusteModal" id="modalCancelar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header-confirm">
+                    <button type="button" class="close" data-dismiss="modal" style="margin-right: 20px; margin-top: 10px;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel" style="padding-left: 30px; padding-top: 10px;"><i class="fa fa-check-square-o 2x"> </i> Janela de Confirmação</h4>
+                </div>
+                <div class="modal-body">
+                    <span style="font-weight: bold">Tem certeza que deseja cancelar a vistoria ?</span>
+                </div>
+                <div class="modal-footer">
+                    <span style="font-size: 11px;" ng-show="processando()"><img src="/img/159.gif"/> Processando requisição ...</span>
+                    <div ng-hide="btnModalCancelamento()">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+                        <button type="button" class="btn btn-primary" ng-click="cancelarVistoria(id_vistoria)">Sim</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim da janela modal cancelamento vistoria -->
+    <!-- Fim janelas modais -->
+
+</div>

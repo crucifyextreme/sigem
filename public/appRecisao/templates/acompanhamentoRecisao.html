@@ -1,0 +1,152 @@
+<style>
+    input[type="text"] {
+        font-size: 11px;
+    }
+
+
+</style>
+
+<div ng-controller="ControllerRecisao">
+
+    <!-- DADOS DO CONTRATO/IMÓVEL -->
+    <p class="bg-primary" style="padding: 5px; background-color: #F58634 !important; font-size: 12px;"> <i class="fa fa-home"></i> DADOS DO CONTRATO <span style="float: right"></span> </p>
+    <div class="row" style="margin-bottom: 10px;" ng-init="iniciaDados()">
+        <div class="col-lg-2">
+            <label for="contrato">Contrato</label>
+            <input type="text" style="height: 30px;" class="form-control" id="contrato" ng-model="item.CODIGO_CONTRATO">
+        </div>
+        <div class="col-lg-1" style="margin-top: 28px;width: 20px;">
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="col-lg-2">
+            <label for="cod_imovel">Cod.Imovel</label>
+            <input type="text" style="height: 30px;" class="form-control" id="cod_imovel" value="{{dadosImovel.CODIGO}}" disabled >
+        </div>
+
+        <div class="col-lg-1" style="margin-top: 24px;">
+            <button type="button" class="btn btn-default btn-sm" ng-click="buscaContrato(item)" ng-disabled="bt_pesquisa_prestador">
+                <span class="glyphicon glyphicon-search"></span> {{value_btn_pesquisar}}
+            </button>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row" style="margin-bottom: 20px;">
+
+        <div class="col-lg-4">
+            <span style="font-weight: bold; font-size: 11px;"> Rua:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosImovel.ENDERECO}} </span>
+        </div>
+
+        <div class="col-lg-4">
+            <span style="font-weight: bold; font-size: 11px;"> Bairro:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosImovel.BAIRRO}} </span>
+        </div>
+
+        <div class="col-lg-2">
+            <span style="font-weight: bold; font-size: 11px;"> CEP:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosImovel.CEP}} </span>
+        </div>
+    </div>
+
+        <!-- DADOS DO PROPRIETARIO -->
+    <p class="bg-primary" style="padding: 5px; background-color: #F58634 !important; font-size: 12px;"> <i class="fa fa-user"></i> DADOS DO PROPRIETÁRIO <span style="float: right"></span> </p>
+    <div ng-repeat="dadosProprietario in proprietarios" style="margin-bottom: 30px;">
+        <span style="font-size: 11px; font-weight: bold"> DADOS PROPRIETÁRIO #{{$index + 1}} </span>
+        <hr style="margin: 0px; padding: 0px; width: 500px;"/>
+
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-lg-4">
+                <i class="fa fa-user"></i> <span style="font-weight: bold; font-size: 11px;"> Proprietário:</span> <span style="font-size: 12px; text-transform: uppercase"> {{dadosProprietario.NOME}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> CPF:</span> <span style="font-size: 12px; text-transform: uppercase"> {{dadosProprietario.CIC_CGC}} </span>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="col-lg-4">
+                <i class="fa fa-fax"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Residencial:</span> <span style="font-size: 12px; text-transform: uppercase"> {{dadosProprietario.RESIDENCIAL}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-mobile-phone"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Celular:</span> <span style="font-size: 12px; text-transform: uppercase"> {{dadosProprietario.CELULAR}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-phone"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Comercial:</span> <span style="font-size: 12px; text-transform: uppercase"> {{dadosProprietario.COMERCIAL}} </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- DADOS DO INQUILINO -->
+    <p class="bg-primary" style="padding: 5px; background-color: #F58634 !important; font-size: 12px;"> <i class="fa fa-male"></i> DADOS DO INQUILINO <span style="float: right"></span> </p>
+    <div ng-repeat="dadosInquilino in inquilos" style="margin-bottom: 30px;">
+        <!-- DADOS DO INQUILINO -->
+        <span style="font-size: 11px; font-weight: bold"> DADOS INQUILINO #{{$index + 1}} </span>
+        <hr style="margin: 0px; padding: 0px; width: 500px;"/>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-lg-4">
+                <i class="fa fa-male"></i> <span style="font-weight: bold; font-size: 11px;"> Inquilino:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosInquilino.NOME}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> CPF:</span> <span style="font-size: 11px;"> {{dadosInquilino.CIC_CGC}} </span>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px; margin-bottom: 40px;">
+            <div class="col-lg-4">
+                <i class="fa fa-fax"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Residencial:</span> <span style="font-size: 11px;" ng-if="dadosInquilino.RESIDENCIAL != 'null'"> {{dadosInquilino.RESIDENCIAL}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-mobile-phone"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Celular:</span> <span style="font-size: 11px;" ng-if="dadosInquilino.CELULAR != 'null'"> {{dadosInquilino.CELULAR}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-phone"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Comercial:</span> <span style="font-size: 11px;" ng-if="dadosInquilino.COMERCIAL != 'null'"> {{dadosInquilino.COMERCIAL}} </span>
+            </div>
+        </div>
+    </div>
+
+        <!-- DADOS DOS FIADORES -->
+        <p class="bg-primary" style="font-size: 12px; padding: 5px; background-color: #F58634 !important;"> <i class="fa fa-child"></i> DADOS FIADORES <span style="float: right"></span> </p>
+
+    <div ng-repeat="dadosFiadores in fiadores" style="margin-bottom: 30px;">
+        <div class="row" style="margin-bottom: 10px;">
+            <!-- FIADOR 1 -->
+            <span style="font-size: 11px; font-weight: bold"> DADOS FIADOR #{{$index + 1}} </span>
+            <hr style="margin: 0px; padding: 0px; width: 500px;"/>
+            <div class="col-lg-4">
+                <i class="fa fa-child"></i>
+                    <span style="font-weight: bold; font-size: 11px;"> Nome:</span> <span style="font-size: 11px; text-transform: uppercase">
+                        <a href="" style="color: #000000; text-decoration: underline" title="Abrir dados do fiador"> {{dadosFiadores.NOME}} </a>
+                    </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> CPF:</span> <span style="font-size: 11px;"> {{dadosFiadores.CIC_CGC}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> EMAIL:</span> <span style="font-size: 11px;"> {{dadosFiadores.E_MAIL}} </span>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 10px;">
+            <div class="col-lg-4">
+                <i class="fa fa-fax"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Residencial:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosFiadores.RESIDENCIAL}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-mobile-phone"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Celular:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosFiadores.CELULAR}} </span>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-phone"></i> <span style="font-weight: bold; font-size: 11px;"> Fone Comercial:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosFiadores.COMERCIAL}} </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- DIV PRESTADORES
+    <div class="row" style="border-top: 1px solid #dddddd; border-left: 1px solid #dddddd;border-right: 1px solid #dddddd; padding-top: 10px; padding-bottom: 10px;">
+
+
+    </div>
+    -->
+
+
+</div>
+
+
+

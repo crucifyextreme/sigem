@@ -1,0 +1,74 @@
+
+<div class="row">
+    <div class="col-lg-4" style="margin-left: 15px;">
+        <div class="form-group">
+            <label for="pesquisa">Pesquisa de Dados</label>
+            <input type="text" class="form-control" id="pesquisa" ng-model="pesquisa">
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <ol class="breadcrumb" style="background: #fde19a">
+            <li class="active"><i class="fa fa-calendar"></i> &nbsp;BANCADA DO VISTORIADOR</li>
+        </ol>
+    </div>
+</div>
+
+<div ng-init="carregaVistoriasAbertas()" ng-controller="ControllerVistoria">
+    <table class="table table-hover">
+        <thead>
+        <tr style="font-size: 11px;">
+            <th> - </th>
+            <th>Contrato</th>
+            <th>Cod.Imóvel</th>
+            <th>Data Vistoria</th>
+            <th>Horário</th>
+            <th>Vistoriador</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="vistoria in vistorias | filter:pesquisa" style="font-size: 11px;">
+            <td> <input type="checkbox" name="{{vistoria.ID_VISTORIA}}" id="{{vistoria.ID_VISTORIA}}" ng-model="vistoria.checked" ng-change="vistoriasSelecionadas()"> </td>
+            <td> {{vistoria.CODIGO_CONTRATO}} </td>
+            <td> {{vistoria.CODIGO}} </td>
+            <td>{{vistoria.DATA_VISTORIA | date : 'dd/MM/yyyy'}}</td>
+            <td> {{vistoria.HORARIO}} </td>
+            <td style="text-transform: capitalize"> {{vistoria.VISTORIADOR}} </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <button type="button" class="btn btn-default" ng-click="finalizar(dados)" ng-model="dados" ng-disabled="btnFinalizarMarcados()"> <span class="glyphicon glyphicon-save"></span> Finalizar Marcados </button>
+
+
+    <!-- Janelas Modais -->
+
+    <!-- Modal Confirmação -->
+    <div class="modal fade ajusteModal" id="modalFinalizar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header-confirm">
+                    <button type="button" class="close" data-dismiss="modal" style="margin-right: 20px; margin-top: 10px;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel" style="padding-left: 30px; padding-top: 10px;"><i class="fa fa-check-square-o 2x"> </i> Janela de Confirmação</h4>
+                </div>
+                <div class="modal-body">
+                    <span style="font-weight: bold">Tem certeza que deseja FINALIZAR (a)s vistoria(s) marcadas ?</span>
+                </div>
+                <div class="modal-footer">
+
+                    <span style="font-size: 11px; font-weight: bold; color: red" ng-show="msn_error()"> Erro em processar sua requisição.</span>
+                    <span style="font-size: 11px; font-weight: bold; color: green" ng-show="msn_ok()"> Requisição processada com sucesso.</span>
+                    <span style="font-size: 11px;" ng-show="processando()"><img src="/img/159.gif"/> Processando requisição ...</span>
+                    <div ng-hide="btnModalFinalizacao()">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+                        <button type="button" class="btn btn-primary" ng-click="finalizarVistoria(dadosFinalizar)">Sim</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim da janela modal cancelamento vistoria -->
+    <!-- Fim janelas modais -->
+
+
+</div>

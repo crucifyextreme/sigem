@@ -1,0 +1,66 @@
+/* Reset Styles
+***********************/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+/* HTML body
+***********************/
+body {
+	background-color: #000;
+}
+
+#bar-graph-container {
+	background-color: #DDD;
+	width: 960px;
+	height: 400px;
+	margin: 1em auto 0em;
+}
+
+.gradient-background-graphs {
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(90deg, rgba(144, 166, 255, 1), rgba(144, 166, 255, .3) 30%, rgba(144, 166, 255, .8));
+	background-image: -moz-linear-gradient(0deg, rgba(144, 166, 255, 1), rgba(144, 166, 255, .3) 30%, rgba(144, 166, 255, .8));
+	background-image: -o-linear-gradient(0deg, rgba(144, 166, 255, 1), rgba(144, 166, 255, .3) 30%, rgba(144, 166, 255, .8));
+	background-image: -ms-linear-gradient(0deg, rgba(144, 166, 255, 1), rgba(144, 166, 255, .3) 30%, rgba(144, 166, 255, .8));
+	background-image: linear-gradient(0deg, rgba(144, 166, 255, 1), rgba(144, 166, 255, .3) 30%, rgba(144, 166, 255, .8));
+}

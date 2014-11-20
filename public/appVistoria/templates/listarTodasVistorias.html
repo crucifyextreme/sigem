@@ -1,0 +1,96 @@
+<style>
+
+    /* Custom dialog/modal headers */
+
+    .dialog-header-error { background-color: #d2322d; }
+    .dialog-header-wait { background-color: #428bca; }
+    .dialog-header-notify { background-color: #eeeeee; }
+    .modal-header-confirm { background-color: #333333; height: 50px; }
+    .modal-title { color: #ffffff}
+
+
+</style>
+
+<div class="row">
+    <div class="col-lg-4" style="margin-left: 15px;">
+        <div class="form-group">
+            <label for="pesquisa">Pesquisa de Dados</label>
+            <input type="text" class="form-control" id="pesquisa" ng-model="pesquisa">
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <ol class="breadcrumb">
+            <li class="active"><i class="fa fa-calendar"></i> &nbsp;VISTORIAS CADASTRADAS NO SISTEMA</li>
+        </ol>
+    </div>
+</div>
+
+<div ng-controller="ControllerVistoria">
+
+    <div ng-init="loadAll()">
+
+
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Contrato</th>
+                <th>Cod.Imóvel</th>
+                <th>Status</th>
+                <th>Prioridade</th>
+                <th>Vistoriador</th>
+                <th>Data</th>
+                <th>Horário</th>
+                <th>Tipo</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr ng-repeat="vistoria in vistorias | filter:pesquisa" style="font-size: 11px;">
+                <td><a href="#/vistoria/editar?id={{vistoria.ID_VISTORIA}}"> {{vistoria.CODIGO_CONTRATO}} </a></td>
+                <td>{{vistoria.CODIGO}}</td>
+
+                <td style="text-transform: capitalize">{{vistoria.STATUS}}</td>
+
+                <td style="text-transform: capitalize">{{vistoria.PRIORIDADE}}</td>
+
+                <td style="text-transform: capitalize">{{vistoria.VISTORIADOR}}</td>
+                <td>{{vistoria.DATA_VISTORIA | date : 'dd/MM/yyyy'}}</td>
+                <td>{{vistoria.HORARIO}}</td>
+                <td style="text-transform: capitalize">{{vistoria.TIPO_VISTORIA}}</td>
+            </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- Janelas Modais -->
+
+        <!-- Modal Cancelamento Vistoria -->
+            <div class="modal fade ajusteModal" id="modalCancelar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header-confirm">
+                            <button type="button" class="close" data-dismiss="modal" style="margin-right: 20px; margin-top: 10px;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel" style="padding-left: 30px; padding-top: 10px;"><i class="fa fa-check-square-o 2x"> </i> Janela de Confirmação</h4>
+                        </div>
+                        <div class="modal-body">
+                            <span style="font-weight: bold">Tem certeza que deseja cancelar a vistoria ?</span>
+                        </div>
+                        <div class="modal-footer">
+                            <span style="font-size: 11px;" ng-show="processando()"><img src="/img/159.gif"/> Processando requisição ...</span>
+                            <div ng-hide="btnModalCancelamento()">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+                                <button type="button" class="btn btn-primary" ng-click="cancelarVistoria(id_vistoria)">Sim</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Fim da janela modal cancelamento vistoria -->
+    <!-- Fim janelas modais -->
+
+</div>

@@ -1,0 +1,214 @@
+<div ng-controller="ControllerSac">
+    <table class="table table-hover" ng-init="financeiroPrestadores()">
+        <thead>
+        <tr style="font-size: 12px; font-weight: bold">
+            <th>Contrato</th>
+            <th>Cod.Imóvel</th>
+            <th>Prestador</th>
+            <th title="Data Provisionamento">Provisionamento</th>
+            <th title="Responsável Pelo Provisionamento">Rp Provisionamento</th>
+            <th title="Quantidade Parcelas">Qtd. Parcelas</th>
+            <th title="Responsável Pelo Pagamento">Rp Pagamento</th>
+            <th>Status</th>
+            <th> - </th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr style="font-size: 11px;" ng-repeat="financeiro in financeiros">
+            <td> {{financeiro.CODIGO_CONTRATO}} </td>
+            <td> {{financeiro.CODIGO}} </td>
+            <td> {{financeiro.PRESTADOR}} </td>
+            <td> {{financeiro.DATA_BLOQUEIO | date: 'dd/MM/yyyy'}} </td>
+            <td style="text-transform: capitalize"> {{financeiro.RP_PROVISIONAMENTO}} </td>
+            <td> <span style="margin-left: 30px;"> {{financeiro.QTD_PARCELAS}} </span> </td>
+            <td>  </td>
+            <td>  </td>
+            <td> <a href="" ng-click="abreModalFinanceiraPagamento()"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> </a> </td>
+        </tr>
+
+        </tbody>
+    </table>
+
+
+    <!-- MODAL FINANCEIRA DO PRESTADOR -->
+    <div class="modal fade bs-example-modal-lg ajusteModal" id="abreModalFinanceiraPagamento" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="row" style="padding-left: 10px; padding-top: 10px;">
+                    <div class="col-lg-6">
+                        <i class="fa fa-wrench fa-fw fa-2x"></i> <span style="text-transform: uppercase; font-weight: bold">Nome do prestador aqui ! </span>
+                    </div>
+                </div>
+                <hr style="margin: 10px; padding: 0px;" />
+                <div class="row" style=" padding: 10px;">
+                    <div class="col-lg-5">
+                        <div class="form-group">
+                            <label>SERVIÇO EXECUTADO</label>
+                            <p>Seviço executado aqui !</p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="margin: 0px; padding: 0px;" />
+                <!-- MÃO DE OBRA -->
+                <div class="row" style="padding-left: 10px; padding-bottom: 10px;">
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Mão Obra</label>
+                        <p style="font-size: 11px;"> 100,00 </p>
+                    </div>
+                    <!-- MATERIAL -->
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Material</label>
+                        <p style="font-size: 11px;"> 150,00</p>
+                    </div>
+                    <!-- QTD PARCELAS -->
+                    <div class="col-lg-2">
+                        <div class="form-group">
+                            <label style="font-size: 12px;">Parcelas</label>
+                            <p style="font-size: 11px;"> 5 </p>
+                        </div>
+                    </div>
+                    <!-- PROVISIONAMENTO -->
+                    <div class="col-lg-2">
+                        <div class="form-group">
+                            <label style="font-size: 12px;">Provisionamento</label>
+                            <p style="font-size: 11px;"> 26/10/2014 </p>
+                        </div>
+                    </div>
+                    <!-- BLOQUEIO -->
+                    <div class="col-lg-2">
+                        <div class="form-group">
+                            <label style="font-size: 12px;">Bloqueio</label>
+                            <p style="font-size: 11px;"> 26/10/2014 </p>
+                        </div>
+                    </div>
+                    <!-- TX SERVIÇO -->
+                    <div class="col-lg-2">
+                        <div class="form-group">
+                            <label style="font-size: 12px;">Tx. Serviço</label>
+                            <p style="font-size: 11px;"> 10% </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- VALORES PAGAMENTO -->
+                <span style="font-weight: bold; margin-left: 10px;">VALORES PARA PAGAMENTO</span>
+                <hr style="margin: 0px; padding: 0px;" />
+
+                <div class="row" style="padding: 10px;">
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 1</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 2</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 3</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 4</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 5</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 6</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+                </div>
+
+                <div class="row" style="padding: 10px;">
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 7</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 8</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 9</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label style="font-size: 12px;">Parc 10</label>
+                        <p style="font-size: 11px;">150,00</p>
+                    </div>
+                </div>
+
+                <!-- DATAS PAGAMENTO -->
+                <span style="font-weight: bold; margin-left: 10px;">DATAS PARA PAGAMENTO</span>
+                <hr style="margin: 0px; padding: 0px;" />
+
+                <div class="row" style="padding: 10px;">
+                    <div class="col-lg-2">
+                        <label>Parc 1</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_1" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 2</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_2" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 3</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_3" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 4</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_4" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 5</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_5" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 6</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_6" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+                </div>
+
+                <div class="row" style="padding: 10px;">
+                    <div class="col-lg-2">
+                        <label>Parc 7</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_7" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 8</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_8" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 9</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_9" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <label>Parc 10</label>
+                        <input type="text" class="form-control" ng-model="fin.PARCELA_10" ui-mask="99/99/9999"  model-view-value="true" directiva-data/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- FIM DA MODAL FINANCEIRA -->
+
+</div>
