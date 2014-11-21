@@ -19,6 +19,26 @@ class ControllerRecisao implements ControllerProviderInterface
         $index = new ControllerCollection(new Route());
 
         /**
+         * BUSCA TODOS OS CONTRATOS NO SISTEMA, PARA QUE SEJAM LISTADOS NA JANELA MODAL
+         */
+        $index->get('/buscaTodosContratos', function() use ($app) {
+            try{
+                return $app->json($app['models']->load('ModelRecisao', 'buscaTodosContratos'));
+            } catch(Exception $e) {
+                return $app->json(['error' => 500]);
+            }
+        });
+        /**
+         * BUSCA DADOS DO IMÓVEL PELO NUMERO DO CONTRATO.
+         */
+        $index->get('/buscaDadosImovel', function(Request $request) use ($app) {
+            try{
+                return $app->json($app['models']->load('ModelRecisao', 'buscaDadosImovel', $request->get('CODIGO_CONTRATO')));
+            } catch(Exception $e) {
+                return $app->json(['error' => 500]);
+            }
+        });
+        /**
          * BUSCA OS DADOS DO CONTRATO, PELO NUMERO DE CONTRATO
          */
         $index->get('/buscaDadosContrato', function(Request $request) use ($app) {
@@ -58,17 +78,6 @@ class ControllerRecisao implements ControllerProviderInterface
                 return $app->json(['error' => 500]);
             }
         });
-        /**
-         * BUSCA DADOS DO IMÓVEL PELO NUMERO DO CONTRATO.
-         */
-        $index->get('/buscaDadosImovel', function(Request $request) use ($app) {
-            try{
-                return $app->json($app['models']->load('ModelRecisao', 'buscaDadosImovel', $request->get('CODIGO_CONTRATO')));
-            } catch(Exception $e) {
-                return $app->json(['error' => 500]);
-            }
-        });
-
 
         return $index;
     }

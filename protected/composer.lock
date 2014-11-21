@@ -424,17 +424,17 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v2.3.21",
+            "version": "v2.3.22",
             "target-dir": "Symfony/Component/Routing",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing.git",
-                "reference": "f7f8ebf9c99e5ebfdb908c3558a818c2883eab1f"
+                "reference": "be0828af76ecc686634a9b1405c8554baf133e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Routing/zipball/f7f8ebf9c99e5ebfdb908c3558a818c2883eab1f",
-                "reference": "f7f8ebf9c99e5ebfdb908c3558a818c2883eab1f",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/be0828af76ecc686634a9b1405c8554baf133e7d",
+                "reference": "be0828af76ecc686634a9b1405c8554baf133e7d",
                 "shasum": ""
             },
             "require": {
@@ -479,7 +479,7 @@
             ],
             "description": "Symfony Routing Component",
             "homepage": "http://symfony.com",
-            "time": "2014-10-13 12:38:27"
+            "time": "2014-10-27 14:27:32"
         },
         {
             "name": "symfony/security",
@@ -545,17 +545,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.5.6",
+            "version": "v2.5.7",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726"
+                "reference": "900d38bc8f74a50343ce65dd1c1e9819658ee56b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
-                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/900d38bc8f74a50343ce65dd1c1e9819658ee56b",
+                "reference": "900d38bc8f74a50343ce65dd1c1e9819658ee56b",
                 "shasum": ""
             },
             "require": {
@@ -588,7 +588,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-10-01 05:50:18"
+            "time": "2014-11-20 13:22:25"
         },
         {
             "name": "twig/twig",

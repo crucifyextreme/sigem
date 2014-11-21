@@ -3,17 +3,36 @@
         font-size: 11px;
     }
 
+    .animation {
+        -webkit-transition: 1s;
+    }
+
+    .animation.ng-enter {
+        opacity: 0;
+    }
+
+    .animation.ng-leave {
+        opacity: 1;
+    }
+
+    .animation.ng-enter.ng-enter-active {
+        opacity: 1;
+    }
+
+    .animation.ng-leave.ng-leave-active {
+        opacity: 0;
+    }
 
 </style>
 
-<div ng-controller="ControllerRecisao">
+<div ng-controller="ControllerRecisao" ng-init="iniciaDados()">
 
     <!-- DADOS DO CONTRATO/IMÓVEL -->
     <p class="bg-primary" style="padding: 5px; background-color: #F58634 !important; font-size: 12px;"> <i class="fa fa-home"></i> DADOS DO CONTRATO <span style="float: right"></span> </p>
     <div class="row" style="margin-bottom: 10px;" ng-init="iniciaDados()">
         <div class="col-lg-2">
             <label for="contrato">Contrato</label>
-            <input type="text" style="height: 30px;" class="form-control" id="contrato" ng-model="item.CODIGO_CONTRATO">
+            <input type="text" style="height: 30px;" class="form-control" id="contrato" ng-model="item.CODIGO_CONTRATO" ng-keyup="capturaF2($event)" >
         </div>
         <div class="col-lg-1" style="margin-top: 28px;width: 20px;">
             <i class="fa fa-search"></i>
@@ -32,7 +51,7 @@
 
     <hr />
 
-    <div class="row" style="margin-bottom: 20px;">
+    <div class="row" style="margin-bottom: 20px;" ng-show="dados_contrato_imovel" >
 
         <div class="col-lg-4">
             <span style="font-weight: bold; font-size: 11px;"> Rua:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosImovel.ENDERECO}} </span>
@@ -48,8 +67,8 @@
     </div>
 
         <!-- DADOS DO PROPRIETARIO -->
-    <p class="bg-primary" style="padding: 5px; background-color: #F58634 !important; font-size: 12px;"> <i class="fa fa-user"></i> DADOS DO PROPRIETÁRIO <span style="float: right"></span> </p>
-    <div ng-repeat="dadosProprietario in proprietarios" style="margin-bottom: 30px;">
+    <p class="bg-primary " style="padding: 5px; background-color: #F58634 !important; font-size: 12px;" ng-show="dados_proprietario_header" > <i class="fa fa-user"></i> DADOS DO PROPRIETÁRIO <span style="float: right"></span> </p>
+    <div ng-repeat="dadosProprietario in proprietarios" style="margin-bottom: 30px;" class="animation">
         <span style="font-size: 11px; font-weight: bold"> DADOS PROPRIETÁRIO #{{$index + 1}} </span>
         <hr style="margin: 0px; padding: 0px; width: 500px;"/>
 
@@ -57,8 +76,9 @@
             <div class="col-lg-4">
                 <i class="fa fa-user"></i> <span style="font-weight: bold; font-size: 11px;"> Proprietário:</span> <span style="font-size: 12px; text-transform: uppercase"> {{dadosProprietario.NOME}} </span>
             </div>
+
             <div class="col-lg-4">
-                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> CPF:</span> <span style="font-size: 12px; text-transform: uppercase"> {{dadosProprietario.CIC_CGC}} </span>
+                <i class="fa fa-envelope-o"></i> <span style="font-weight: bold; font-size: 11px;"> EMAIL:</span> <span style="font-size: 11px;"> {{dadosProprietario.E_MAIL}} </span>
             </div>
         </div>
 
@@ -77,8 +97,8 @@
 
 
     <!-- DADOS DO INQUILINO -->
-    <p class="bg-primary" style="padding: 5px; background-color: #F58634 !important; font-size: 12px;"> <i class="fa fa-male"></i> DADOS DO INQUILINO <span style="float: right"></span> </p>
-    <div ng-repeat="dadosInquilino in inquilos" style="margin-bottom: 30px;">
+    <p class="bg-primary" style="padding: 5px; background-color: #F58634 !important; font-size: 12px;" ng-show="dados_inquilino_header"> <i class="fa fa-male"></i> DADOS DO INQUILINO <span style="float: right"></span> </p>
+    <div ng-repeat="dadosInquilino in inquilos" style="margin-bottom: 30px;" class="animation">
         <!-- DADOS DO INQUILINO -->
         <span style="font-size: 11px; font-weight: bold"> DADOS INQUILINO #{{$index + 1}} </span>
         <hr style="margin: 0px; padding: 0px; width: 500px;"/>
@@ -86,8 +106,9 @@
             <div class="col-lg-4">
                 <i class="fa fa-male"></i> <span style="font-weight: bold; font-size: 11px;"> Inquilino:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosInquilino.NOME}} </span>
             </div>
+
             <div class="col-lg-4">
-                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> CPF:</span> <span style="font-size: 11px;"> {{dadosInquilino.CIC_CGC}} </span>
+                <i class="fa fa-envelope-o"></i> <span style="font-weight: bold; font-size: 11px;"> EMAIL:</span> <span style="font-size: 11px;"> {{dadosInquilino.E_MAIL}} </span>
             </div>
         </div>
 
@@ -105,24 +126,19 @@
     </div>
 
         <!-- DADOS DOS FIADORES -->
-        <p class="bg-primary" style="font-size: 12px; padding: 5px; background-color: #F58634 !important;"> <i class="fa fa-child"></i> DADOS FIADORES <span style="float: right"></span> </p>
+        <p class="bg-primary" style="font-size: 12px; padding: 5px; background-color: #F58634 !important;" ng-show="dados_fiadores_header"> <i class="fa fa-child"></i> DADOS FIADORES <span style="float: right"></span> </p>
 
-    <div ng-repeat="dadosFiadores in fiadores" style="margin-bottom: 30px;">
+    <div ng-repeat="dadosFiadores in fiadores" style="margin-bottom: 30px;" class="animation">
         <div class="row" style="margin-bottom: 10px;">
             <!-- FIADOR 1 -->
             <span style="font-size: 11px; font-weight: bold"> DADOS FIADOR #{{$index + 1}} </span>
             <hr style="margin: 0px; padding: 0px; width: 500px;"/>
             <div class="col-lg-4">
                 <i class="fa fa-child"></i>
-                    <span style="font-weight: bold; font-size: 11px;"> Nome:</span> <span style="font-size: 11px; text-transform: uppercase">
-                        <a href="" style="color: #000000; text-decoration: underline" title="Abrir dados do fiador"> {{dadosFiadores.NOME}} </a>
-                    </span>
+                    <span style="font-weight: bold; font-size: 11px;"> Nome:</span> <span style="font-size: 11px; text-transform: uppercase"> {{dadosFiadores.NOME}} </span>
             </div>
             <div class="col-lg-4">
-                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> CPF:</span> <span style="font-size: 11px;"> {{dadosFiadores.CIC_CGC}} </span>
-            </div>
-            <div class="col-lg-4">
-                <i class="fa fa-credit-card"></i> <span style="font-weight: bold; font-size: 11px;"> EMAIL:</span> <span style="font-size: 11px;"> {{dadosFiadores.E_MAIL}} </span>
+                <i class="fa fa-envelope-o"></i> <span style="font-weight: bold; font-size: 11px;"> EMAIL:</span> <span style="font-size: 11px;"> {{dadosFiadores.E_MAIL}} </span>
             </div>
         </div>
         <div class="row" style="margin-bottom: 10px;">
@@ -145,6 +161,44 @@
     </div>
     -->
 
+    <!-- MODAL QUE VAI CHAMAR OS CONTRATOS ATIVOS -->
+    <div class="modal fade bs-example-modal-lg ajusteModal" id="modalContratosSistema" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-lg-4" style="margin-left: 15px;">
+                        <div class="form-group">
+                            <label for="pesquisa"><i class="fa fa-search"></i>  Pesquisa de Dados </label>
+                            <input type="text" class="form-control" id="pesquisa" ng-model="pesquisa">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr style="font-size: 12px; font-weight: bold">
+                                <th>Inquilino</th>
+                                <th>Proprietário</th>
+                                <th>End.Imóvel</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr ng-repeat="contrato in contratos | filter:pesquisa | limitTo:12" style="font-size: 11px;">
+                                <td style="font-size: 10px;">{{contrato.NOME_CLIENTE}}</td>
+                                <td style="font-size: 10px;">{{contrato.NOME_PROPRIETARIO}}</td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DA MODAL QUE VAI CHAMAR OS CONTRATOS ATIVOS -->
 
 </div>
 

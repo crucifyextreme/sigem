@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0bc8b64-2023-4dd7-a664-4db921c05d33" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/angular-animate.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/projectSigem.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/.gitignore" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/.gitignore" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AbstractAnnotationLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AbstractAnnotationLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/AbstractClass.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/AbstractClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/AnnotationClassLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/AnnotationClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AnnotationClassLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AnnotationClassLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/AnnotationDirectoryLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/AnnotationDirectoryLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AnnotationDirectoryLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AnnotationDirectoryLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/AnnotationFileLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/AnnotationFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AnnotationFileLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/AnnotationFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/ApacheMatcherDumper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/ApacheMatcherDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/ApacheMatcherDumperTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/ApacheMatcherDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/ApacheUrlMatcher.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/ApacheUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/ApacheUrlMatcherTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/ApacheUrlMatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/BarClass.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/BarClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/CHANGELOG.md" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/CHANGELOG.md" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/ClosureLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/ClosureLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/ClosureLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/ClosureLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/CompiledRoute.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/CompiledRoute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/CompiledRouteTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/CompiledRouteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/ConfigurableRequirementsInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/ConfigurableRequirementsInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appRecisao/src/ControllerRecisao.js" afterPath="$PROJECT_DIR$/public/appRecisao/src/ControllerRecisao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/Controllers/Recisao/ControllerRecisao.php" afterPath="$PROJECT_DIR$/protected/Controllers/Recisao/ControllerRecisao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/CustomXmlFileLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/CustomXmlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/DumpException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/DumpException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Dumper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Dumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/DumperCollection.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/DumperCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/DumperCollectionTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/DumperCollectionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/DumperPrefixCollection.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/DumperPrefixCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/DumperPrefixCollectionTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/DumperPrefixCollectionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/DumperRoute.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/DumperRoute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/DumperTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/DumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Escaper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Escaper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/ExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/FooClass.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/FooClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/Dumper/GeneratorDumper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/Dumper/GeneratorDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/Dumper/GeneratorDumperInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/Dumper/GeneratorDumperInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Inline.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Inline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/InlineTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/InlineTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/InvalidParameterException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/InvalidParameterException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/LICENSE" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/LICENSE" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/MatcherDumper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/MatcherDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/MatcherDumperInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/MatcherDumperInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/MethodNotAllowedException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/MethodNotAllowedException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/MissingMandatoryParametersException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/MissingMandatoryParametersException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appRecisao/src/ModelRecisao.js" afterPath="$PROJECT_DIR$/public/appRecisao/src/ModelRecisao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/Models/ModelRecisao.php" afterPath="$PROJECT_DIR$/protected/Models/ModelRecisao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appRecisao/src/ModuloRecisao.js" afterPath="$PROJECT_DIR$/public/appRecisao/src/ModuloRecisao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ParseException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ParseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/ParseExceptionTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/ParseExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Parser.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/ParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/PhpFileLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/PhpFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/PhpFileLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/PhpFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/Dumper/PhpGeneratorDumper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/Dumper/PhpGeneratorDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Generator/Dumper/PhpGeneratorDumperTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Generator/Dumper/PhpGeneratorDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/PhpMatcherDumper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/Dumper/PhpMatcherDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/README.md" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/README.md" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/RedirectableUrlMatcher.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/RedirectableUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/RedirectableUrlMatcher.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/RedirectableUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/RedirectableUrlMatcherInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/RedirectableUrlMatcherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/RedirectableUrlMatcherTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/RedirectableUrlMatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RequestContext.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RequestContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RequestContextAwareInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RequestContextAwareInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RequestContextTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RequestContextTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/RequestMatcherInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/RequestMatcherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/ResourceNotFoundException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/ResourceNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Route.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Annotation/Route.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Annotation/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouteCollection.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouteCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteCollectionTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteCollectionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouteCompiler.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouteCompiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouteCompilerInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouteCompilerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteCompilerTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteCompilerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/RouteNotFoundException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Exception/RouteNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Annotation/RouteTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Annotation/RouteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Router.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouterInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/RouterInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouterTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/RuntimeException.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/RuntimeException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/TraceableUrlMatcher.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/TraceableUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/TraceableUrlMatcherTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/TraceableUrlMatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Unescaper.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Unescaper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGeneratorInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGeneratorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Generator/UrlGeneratorTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Generator/UrlGeneratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcher.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcherInterface.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/UrlMatcherTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/UrlMatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/XmlFileLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/XmlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/XmlFileLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/XmlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Yaml.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/YamlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/YamlFileLoaderTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Loader/YamlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/YamlTest.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/YamlTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsAnchorAlias.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsAnchorAlias.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBasicTests.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBasicTests.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBlockMapping.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBlockMapping.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsDocumentSeparator.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsDocumentSeparator.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsErrorTests.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsErrorTests.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFlowCollections.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFlowCollections.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFoldedScalars.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFoldedScalars.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsSpecificationExamples.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsSpecificationExamples.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsTypeTransfers.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsTypeTransfers.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appRecisao/templates/acompanhamentoRecisao.html" afterPath="$PROJECT_DIR$/public/appRecisao/templates/acompanhamentoRecisao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/autoload.php" afterPath="$PROJECT_DIR$/protected/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/protected/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/protected/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/protected/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/protected/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/composer.json" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/composer.json" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/composer.lock" afterPath="$PROJECT_DIR$/protected/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/embededPhp.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/embededPhp.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/escapedCharacters.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/escapedCharacters.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/incomplete.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/incomplete.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/index.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/index.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/protected/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/missing_id.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/missing_id.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/missing_path.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/missing_path.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/namespaceprefix.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/namespaceprefix.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonesense_resource_plus_path.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonesense_resource_plus_path.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonesense_type_without_resource.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonesense_type_without_resource.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalid.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalid.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalid.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalid2.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalid2.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalidkeys.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalidkeys.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalidnode.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalidnode.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalidroute.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/nonvalidroute.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/null_values.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/null_values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/phpunit.xml.dist" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/phpunit.xml.dist" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/appSac/templates/prestadoresChamado.html" afterPath="$PROJECT_DIR$/public/appSac/templates/prestadoresChamado.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/schema/routing/routing-1.0.xsd" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Loader/schema/routing/routing-1.0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfComments.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfComments.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfCompact.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfCompact.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfMergeKey.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfMergeKey.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfObjects.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfObjects.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfQuotes.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfQuotes.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfTests.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfTests.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/special_route_name.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/special_route_name.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/template.twig" afterPath="$PROJECT_DIR$/protected/views/template.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/unindentedCollections.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/unindentedCollections.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher1.apache" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher1.apache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher1.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher2.apache" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher2.apache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher2.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher3.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/dumper/url_matcher3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validpattern.php" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validpattern.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validpattern.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validpattern.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validpattern.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validpattern.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validresource.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validresource.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validresource.yml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/validresource.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/withdoctype.xml" afterPath="$PROJECT_DIR$/protected/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/withdoctype.xml" />
+    </list>
+    <ignored path="projectSigem.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="projectSigem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="acompanhamentoRecisao.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/appRecisao/templates/acompanhamentoRecisao.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="189" column="89" selection-start="10323" selection-end="10323" vertical-scroll-proportion="-16.115385" vertical-offset="2794" max-vertical-offset="3604">
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerRecisao.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/appRecisao/src/ControllerRecisao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="56" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2278">
+              <folding>
+                <marker date="1416590813406" expanded="false" signature="579:613" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelRecisao.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/appRecisao/src/ModelRecisao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="64" selection-start="434" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerRecisao.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/Controllers/Recisao/ControllerRecisao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="53" selection-start="672" selection-end="672" vertical-scroll-proportion="-9.423077" vertical-offset="27" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelRecisao.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/Models/ModelRecisao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="-1.7307693" vertical-offset="125" max-vertical-offset="1156">
+              <folding>
+                <marker date="1416591621037" expanded="true" signature="297:875" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+                <marker date="1416591621037" expanded="true" signature="984:1435" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+                <marker date="1416591621037" expanded="true" signature="1641:2212" placeholder="SELECT c_v_c..c_v_proprietarios_contratos_todos..." />
+                <marker date="1416591621037" expanded="true" signature="2412:2974" placeholder="SELECT c_v_c..c_v_inquilinos_contratos_todos..." />
+                <marker date="1416591621037" expanded="true" signature="3173:3788" placeholder="SELECT c_v_c..v_cliente_inquilino_e_fiador..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="155" selection-start="3299" selection-end="3299" vertical-scroll-proportion="0.58921933" vertical-offset="839" max-vertical-offset="2703">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/template.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="169" column="41" selection-start="7783" selection-end="8379" vertical-scroll-proportion="-6.2115383" vertical-offset="2550" max-vertical-offset="5355">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heroic-features.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/css/heroic-features.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="18" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/js/angular-animate.min.js" />
+        <option value="$PROJECT_DIR$/public/js/angular/angular-animate.min.js.map.js" />
+        <option value="$PROJECT_DIR$/public/appRecisao/src/ModuloRecisao.js" />
+        <option value="$PROJECT_DIR$/public/app.js" />
+        <option value="$PROJECT_DIR$/public/js/angular/angular-animate.min.js" />
+        <option value="$PROJECT_DIR$/protected/views/template.twig" />
+        <option value="$PROJECT_DIR$/public/appSac/templates/prestadoresChamado.html" />
+        <option value="$PROJECT_DIR$/public/appRecisao/src/ModelRecisao.js" />
+        <option value="$PROJECT_DIR$/protected/Controllers/Recisao/ControllerRecisao.php" />
+        <option value="$PROJECT_DIR$/public/appRecisao/src/ControllerRecisao.js" />
+        <option value="$PROJECT_DIR$/public/appRecisao/templates/acompanhamentoRecisao.html" />
+        <option value="$PROJECT_DIR$/protected/Models/ModelRecisao.php" />
+        <option value="$USER_HOME$/Downloads/startbootstrap-bare-1.0.0/startbootstrap-bare-1.0.0/index.html" />
+        <option value="$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/css/heroic-features.css" />
+        <option value="$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appSac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appSac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appRecisao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appRecisao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Recisao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gmferreir\Desktop\projectSigem\public\js\angular" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0bc8b64-2023-4dd7-a664-4db921c05d33" name="Default" comment="" />
+      <created>1416569756362</created>
+      <updated>1416569756362</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="0" width="1374" height="732" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/appRecisao/templates/acompanhamentoRecisao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="24" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2992">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Models/ModelRecisao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="165" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1020">
+          <folding>
+            <marker date="1416591621037" expanded="true" signature="297:875" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="984:1435" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="1641:2212" placeholder="SELECT c_v_c..c_v_proprietarios_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="2412:2974" placeholder="SELECT c_v_c..c_v_inquilinos_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="3173:3788" placeholder="SELECT c_v_c..v_cliente_inquilino_e_fiador..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appRecisao/src/ControllerRecisao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="57" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2057">
+          <folding>
+            <marker date="1416590813406" expanded="false" signature="579:613" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appRecisao/src/ModuloRecisao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="56" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/angular/angular-animate.min.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="38121" selection-end="38121" vertical-scroll-proportion="0.2109929" vertical-offset="0" max-vertical-offset="564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/angular/angular-animate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="47" selection-start="8436" selection-end="8436" vertical-scroll-proportion="0.66312057" vertical-offset="0" max-vertical-offset="564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appRecisao/src/ModuloRecisao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="56" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.2712766" vertical-offset="153" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appSac/templates/prestadoresChamado.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="391" column="65" selection-start="24390" selection-end="24390" vertical-scroll-proportion="0.88475835" vertical-offset="6171" max-vertical-offset="7174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appSac/templates/chamadosAbertos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="22" selection-end="308" vertical-scroll-proportion="0.18959108" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appRecisao/src/ControllerRecisao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="56" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2278">
+          <folding>
+            <marker date="1416590813406" expanded="false" signature="579:613" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appRecisao/templates/acompanhamentoRecisao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="89" selection-start="10323" selection-end="10323" vertical-scroll-proportion="-16.115385" vertical-offset="2794" max-vertical-offset="3604">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/appRecisao/src/ModelRecisao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="64" selection-start="434" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="34" selection-start="83" selection-end="84" vertical-scroll-proportion="0.063197024" vertical-offset="0" max-vertical-offset="538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="34" selection-start="83" selection-end="84" vertical-scroll-proportion="0.063197024" vertical-offset="0" max-vertical-offset="538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Controllers/Recisao/ControllerRecisao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="53" selection-start="672" selection-end="672" vertical-scroll-proportion="-9.423077" vertical-offset="27" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/Models/ModelRecisao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="-1.7307693" vertical-offset="125" max-vertical-offset="1156">
+          <folding>
+            <marker date="1416591621037" expanded="true" signature="297:875" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="984:1435" placeholder="SELECT c_v_i..c_v_inquilinos_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="1641:2212" placeholder="SELECT c_v_c..c_v_proprietarios_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="2412:2974" placeholder="SELECT c_v_c..c_v_inquilinos_contratos_todos..." />
+            <marker date="1416591621037" expanded="true" signature="3173:3788" placeholder="SELECT c_v_c..v_cliente_inquilino_e_fiador..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-bare-1.0.0/startbootstrap-bare-1.0.0/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="6" selection-start="2753" selection-end="2753" vertical-scroll-proportion="-43.807693" vertical-offset="0" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/css/heroic-features.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/template.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="41" selection-start="7783" selection-end="8379" vertical-scroll-proportion="-6.2115383" vertical-offset="2550" max-vertical-offset="5355">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/startbootstrap-heroic-features-1.0.0/theme_bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="155" selection-start="3299" selection-end="3299" vertical-scroll-proportion="0.58921933" vertical-offset="839" max-vertical-offset="2703">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

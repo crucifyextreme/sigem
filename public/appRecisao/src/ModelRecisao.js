@@ -7,6 +7,20 @@ appRecisao
                 });
             },
             /**
+             * BUSCA DADOS DE TODOS OS CONTRATO.
+             */
+            buscaTodosContratos:function() {
+                return $http.get('negociacao/buscaTodosContratos');
+            },
+            /**
+             * BUSCA DADOS DO IMÓVEL PELO NUMERO DE CONTRATO.
+             */
+            buscaDadosImovel:function(contrato) {
+                return $http.get('negociacao/buscaDadosImovel',{
+                    params:contrato
+                });
+            },
+            /**
              * BUSCA DADOS DO PROPRIETARIO PELO NUMERO DE CONTRATO
              */
             buscaDadosProprietario:function(item) {
@@ -33,14 +47,6 @@ appRecisao
             buscaDadosFiadores:function(contrato) {
                 return $http.get('negociacao/buscaDadosFiadores', {
                     params: contrato
-                });
-            },
-            /**
-             * BUSCA DADOS DO IMÓVEL PELO NUMERO DE CONTRATO.
-             */
-            buscaDadosImovel:function(contrato) {
-                return $http.get('negociacao/buscaDadosImovel',{
-                    params:contrato
                 });
             }
         }

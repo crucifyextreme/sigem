@@ -1,4 +1,4 @@
-var appRecisao = angular.module('appRecisao',['ngRoute', 'ngResource','ui.mask','ngCookies','currencyMask'])
+var appRecisao = angular.module('appRecisao',['ngAnimate','ngRoute', 'ngResource','ui.mask','ngCookies','currencyMask'])
 
 appRecisao
     .config(

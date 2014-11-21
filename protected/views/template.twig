@@ -104,115 +104,97 @@
     <!-- Navigation -->
 
     <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=""><img src="/img/sigem_logo_mini.png" /></a>
+            </div>
+            <!-- MENUS RIGHT-->
+            <ul class="nav navbar-top-links navbar-right">
+               <!-- <li class="dropdown alerts-dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Alertas <span class="badge"> --- </span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
 
+                        <li class="divider"></li>
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href=""><img src="/img/sigem_logo_mini.png" /></a>
-
-                <!-- Notication
-                <div class="notificacao">
-                </div>
-                -->
-
-        </div>
-
-    <ul class="nav navbar-top-links navbar-right">
-
-        <li class="dropdown alerts-dropdown">
-            <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Alertas <span class="badge"> --- </span> <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-
-                <li class="divider"></li>
-
+                    </ul>
+                </li>-->
+                <li class="dropdown user-dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" ><span style="font-weight: bold; color: #000000; font-size: 10px;">Load...</span><img src="/img/pictureProfile/picturePadrao.jpg" style="height: 40px; width: 40px; position: absolute; right: 10px; top: 5px;"class="img-circle"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/system/admin"><i class="fa fa-cog"></i> Administração</a></li>
+                        <li><a href="#/user/profile"><i class="fa fa-user"></i> Meus Dados</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/logout"><i class="fa fa-power-off"></i> Sair do Sitema</a></li>
+                    </ul>
+                </li>
             </ul>
-        </li>
 
+        <!-- MENUS NAVEGAÇÃO -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav" id="side-menu">
 
+                    <li>
+                        <a href="#"><i class="fa fa-users fa-2x"></i> SAC<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#/sac/novoChamado" ng-hide="novoChamadoLink()"><i class="fa fa-file"></i> Novo Chamado</a>
+                                <a href="" ng-show="novoChamadoSemLink()"><i class="fa fa-file"></i> Novo Chamado</a>
+                            </li>
+                            <li>
+                                <a href="#/sac/chamadosAbertos" ng-hide="chamadoAbertoLink()"><i class="fa fa-edit"></i> Chamados Abertos</a>
+                                <a href="" ng-show="chamadoAbertoSemLink()"><i class="fa fa-edit"></i> Chamados Abertos</a>
+                            </li>
+                            <li>
+                                <a href="#/sac/todosChamados" ng-hide="todosChamadosLink()"><i class="fa fa-table"></i> Todos os Chamados</a>
+                                <a href="" ng-show="todosChamadosSemLink()"><i class="fa fa-table"></i> Todos os Chamados</a>
+                            </li>
+                            <li>
+                                <a href="#/sac/report/manager/" ng-hide="relatorioGerencialLink()"><i class="fa fa-bar-chart-o"></i> Relatório Gerencial</a>
+                                <a href="" ng-show="relatorioGerencialSemLink()"><i class="fa fa-bar-chart-o"></i> Relatório Gerencial</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-wrench fa-fw "></i> Prestadores<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#/sac/novoPrestador" ng-hide="novoCadastroPrestadorLink()"><i class="fa fa-plus-circle"></i> Novo Cadastro</a>
+                                        <a href="" ng-show="novoCadastroPrestadorSemLink()"><i class="fa fa-file"></i> Novo Cadastro</a>
+                                    </li>
+                                    <li>
+                                        <a href="#/sac/prestadores/financeiro" ng-hide="visualizarPagamentosPrestadoresLink()"><i class="fa fa-money"></i> Financeiro</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-calendar fa-2x"></i> Vistorias<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="#/vistoria/agendamento"><i class="fa fa-calendar"></i> Agendamento</a></li>
+                            <li><a href="#/vistoria/abertas"><i class="fa fa-edit"></i> Vistorias Em Aberto</a></li>
+                            <li><a href="#/vistoria"><i class="fa fa-table"></i> Todas as Vistorias</a></li>
+                            <li><a href="#/vistoria/agendaVistoriador"><i class="fa fa-calendar-o"></i> Agenda Vistoriador</a></li>
+                            <li><a href="#/vistoria/bancadaVistoriador"><i class="fa fa-bar-chart-o"></i> Bancada Vistoriador</a></li>
+                        </ul>
+                    </li>
 
-    <li class="dropdown user-dropdown">
-        <a href="" class="dropdown-toggle" data-toggle="dropdown" ><span style="font-weight: bold; color: #000000; font-size: 10px;">Load...</span><img src="/img/pictureProfile/picturePadrao.jpg" style="height: 40px; width: 40px; position: absolute; right: 10px; top: 5px;"class="img-circle"></a>
-        <ul class="dropdown-menu">
-            <li><a href="#/system/admin"><i class="fa fa-cog"></i> Administração</a></li>
-            <li><a href="#/user/profile"><i class="fa fa-user"></i> Meus Dados</a></li>
-            <li class="divider"></li>
-            <li><a href="/logout"><i class="fa fa-power-off"></i> Sair do Sitema</a></li>
-        </ul>
-    </li>
-    <!-- /.dropdown -->
-    </ul>
-    <!-- /.navbar-top-links -->
+                    <li>
+                        <a href="#"><i class="fa fa-phone fa-2x"></i> Negociações<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="#/negociacao/recisao"><i class="fa fa-file-text-o"></i> Recisões</a></li>
+                            <li><a href=""><i class="fa fa-university"></i> Controle IPTU</a></li>
+                        </ul>
+                    </li>
 
-    <div class="navbar-default sidebar" role="navigation">
-        <div class="sidebar-nav navbar-collapse">
-            <ul class="nav" id="side-menu">
-
-                <li>
-                    <a href="#"><i class="fa fa-users fa-2x"></i> SAC<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="#/sac/novoChamado" ng-hide="novoChamadoLink()"><i class="fa fa-file"></i> Novo Chamado</a>
-                            <a href="" ng-show="novoChamadoSemLink()"><i class="fa fa-file"></i> Novo Chamado</a>
-                        </li>
-                        <li>
-                            <a href="#/sac/chamadosAbertos" ng-hide="chamadoAbertoLink()"><i class="fa fa-edit"></i> Chamados Abertos</a>
-                            <a href="" ng-show="chamadoAbertoSemLink()"><i class="fa fa-edit"></i> Chamados Abertos</a>
-                        </li>
-                        <li>
-                            <a href="#/sac/todosChamados" ng-hide="todosChamadosLink()"><i class="fa fa-table"></i> Todos os Chamados</a>
-                            <a href="" ng-show="todosChamadosSemLink()"><i class="fa fa-table"></i> Todos os Chamados</a>
-                        </li>
-                        <li>
-                            <a href="#/sac/report/manager/" ng-hide="relatorioGerencialLink()"><i class="fa fa-bar-chart-o"></i> Relatório Gerencial</a>
-                            <a href="" ng-show="relatorioGerencialSemLink()"><i class="fa fa-bar-chart-o"></i> Relatório Gerencial</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw "></i> Prestadores<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#/sac/novoPrestador" ng-hide="novoCadastroPrestadorLink()"><i class="fa fa-plus-circle"></i> Novo Cadastro</a>
-                                    <a href="" ng-show="novoCadastroPrestadorSemLink()"><i class="fa fa-file"></i> Novo Cadastro</a>
-                                </li>
-                                <li>
-                                    <a href="#/sac/prestadores/financeiro" ng-hide="visualizarPagamentosPrestadoresLink()"><i class="fa fa-money"></i> Financeiro</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-calendar fa-2x"></i> Vistorias<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="#/vistoria/agendamento"><i class="fa fa-calendar"></i> Agendamento</a></li>
-                        <li><a href="#/vistoria/abertas"><i class="fa fa-edit"></i> Vistorias Em Aberto</a></li>
-                        <li><a href="#/vistoria"><i class="fa fa-table"></i> Todas as Vistorias</a></li>
-                        <li><a href="#/vistoria/agendaVistoriador"><i class="fa fa-calendar-o"></i> Agenda Vistoriador</a></li>
-                        <li><a href="#/vistoria/bancadaVistoriador"><i class="fa fa-bar-chart-o"></i> Bancada Vistoriador</a></li>
-                    </ul>
-                    <!-- /.nav-second-level -->
-                </li>
-
-                <li>
-                    <a href="#"><i class="fa fa-phone fa-2x"></i> Negociações<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="#/negociacao/recisao"><i class="fa fa-file-text-o"></i> Recisões</a></li>
-                        <li><a href=""><i class="fa fa-university"></i> Controle IPTU</a></li>
-                    </ul>
-                    <!-- /.nav-second-level -->
-                </li>
-
-            </ul>
+                </ul>
+            </div>
         </div>
-        <!-- /.sidebar-collapse -->
-    </div>
-    <!-- /.navbar-static-side -->
-
+        <!-- FIM DOS MENUS DE NAVEGAÇÃO -->
 
     </nav>
 
@@ -251,6 +233,8 @@
 <script src="/js/angular/angular.min.js"></script>
 <script src="/js/angular/angular-resource.min.js"></script>
 <script src="/js/angular/angular-route.min.js"></script>
+<script src="/js/angular/angular-animate.min.js"></script>
+
 
 <script src="/js/angular-cookies.js"></script>
 
